@@ -8,35 +8,10 @@
 </head>
 <body>
 
-    <h1>heelo nginx</h1>
+    <h1>heelo nginx 222</h1>
 
-    <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            appId            : '180659621401956',
-            autoLogAppEvents : true,
-            xfbml            : true,
-            version          : 'v16.0'
-          });
+    <h1>heelo nginx 3333</h1>
 
-
-          FB.login(function(response) {
-              if (response.authResponse) {
-              console.log('Welcome!  Fetching your information.... ');
-              console.log(response);
-              FB.api('/me?fields=id,name,email', function(response) {
-                console.log(response);
-              console.log('Good to see you, ' + response.name + '.');
-              });
-              } else {
-              console.log('User cancelled login or did not fully authorize.');
-              }
-          },  {scope: 'email,user_likes, instagram_basic', return_scopes: true});
-
-
-        };
-    </script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
     
 </body>
 </html>
